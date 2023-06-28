@@ -161,5 +161,53 @@ div.scrollmenu a:hover {
         }
       
 }
+
+/*bottom border nav links*/
+
+.text6 {
+        font-size: 30px;
+        margin-left: 170px;
+        padding: 20px;
+        margin-bottom: 40px;
+}
+
+.topnav {
+        overflow: hidden;
+        background-color: #e4dede;
+        margin-left: 170px;
+}
+      
+.topnav a {
+        float: left;
+        font-size: 20px;
+        display: block;
+        color: rgb(11, 10, 10);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        border-bottom: 3px solid transparent;
+}
+      
+.topnav a:hover {
+        border-bottom: 3px solid rgb(43, 42, 42);
+}
+      
+.topnav a.active {
+       border-bottom: 3px solid rgb(57, 51, 57);
+}
+
+/*right aligned menu links*/
+
+.topnav-right {
+        float: right;
+}
+
+.text7 {
+        font-size: 30px;
+        margin-left: 170px;
+        padding: 20px;
+        margin-bottom: 40px;  
+}
       
 
